@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Enrollment Form</title>
+        <style>h1 {
+            text-align: center;
+            margin-top: 10px;
+        }
+            
+            </style>
+    </head>
+    <body>
+        <h1>Enrollment Form</h1>
+        <br>
+        <form action="/submit" method="post">
+            <fieldset>
+                <legend><br><b>Learner Information</b></br></legend>
+                <label for ="name">Last Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your last name" max length="13">
+                <br>
+                <label for ="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Enter your first name" max length="13">
+                <br>
+                <label for ="middlename">Middle Name:</label>
+                <input type="text" id="middlename" name="middlename" placeholder="Enter your middle name" max length="13">
+
+            <fieldset>
+                <label for ="lrn">LRN:</label>
+                <input type="text" id="lrn" name="lrn" placeholder="Enter your LRN" max length="12">
+                <br>
+                <label for ="birthdate">Birth Date:</label>
+                <input type="date" id="birthdate" name="birthdate">
+                <label for ="place of birth">Place of Birth (Municipality City)</label>
+                <input type="text" id="place of birth" name="place of birth" placeholder="Enter your Place of Birth" max length="20">
+                <br>
+                <label for ="mother tongue">Mother Tongue:</label>
+                <input type="text" id="name" name="mother tongue" placeholder="Enter your mother tongue" max length="13">
+                <br>
+                <p>Sex:</p>
+                <input type="checkbox" id="male" name="Sex" value="male">
+                <label for="Male">Male</label>
+                <input type="checkbox" id="female" name="Sex" value="female">
+                <label for="Female">Female</label>
+                <br>
+                <label for ="age">Age:</label>
+                <input type="number" id="age" name="age" min="1" max="120">
+                <br>
+                <p>Belonging to any Indigenous Peoples (IP) Community/Indigenous Cultural Community</p>
+                <br>
+                <input type="checkbox" id="yes" name="Belonging to any Indigenous Peoples (IP) Community/Indigenous Cultural Community" value="yes">
+                <label for="yes">Yes</label>
+                <input type="checkbox" id="no" name="Belonging to any Indigenous Peoples (IP) Community/Indigenous Cultural Community" value="no">
+                <label for="yes">No</label>
+                <p>If Yes, please specify:</p>
+                <p>Is your family a beneficiary of 4Ps?</p>
+                <input type="checkbox" id="yes" name="Is your family a beneficiary of 4Ps?" value="yes">
+                <label for="yes">Yes</label>
+                <input type="checkbox" id="no" name="Is your family a beneficiary of 4Ps?" value="no">
+                <label for="yes">No</label>
+                <br>
+                <label for ="name">If yes, write the 4Ps Household ID Number:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your 4Ps Household ID Number" max length="13">
+                <fieldset>
+                    <p><b>Is the child a learner with disability?</b></p>
+                    <input type="checkbox" id="yes" name="Is the child a learner with disability?" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="checkbox" id="no" name="Is the child a learner with disability?" value="no">
+                    <label for="no">No</label>
+                    <p>If yes, specify the type of disability:</p>
+                    <input type="checkbox" id="visual impairment" name="If yes, specify the type of disability:" value="visual impairment">
+                    <label for="visual impairment">visual impairment</label>
+
+                    
+
+                    <input type="checkbox" id="Hearing Impairment" name="If yes, specify the type of disability:" value="Hearing Impairment">
+                    <label for="Hearing Impairment">Hearing Impairment</label>
+
+                    
+
+                    <input type="checkbox" id="Autism Spectrum Disorder" name="If yes, specify the type of disability:" value="Autism Spectrum Disorder">
+                    <label for="Autism Spectrum Disorder">Autism Spectrum Disorder</label>
+
+                    
+
+                    <input type="checkbox" id="a.blind" name="If yes, specify the type of disability:" value="a.blind">
+                    <label for="a.blind">a.blind</label>
+
+                    
+
+                    <input type="checkbox" id="b.low vision" name="If yes, specify the type of disability:" value="b.low vision">
+                    <label for="b.low vision">b.low vision</label>
+
+                    
+
+                    <input type="checkbox" id="Multiple Disorder" name="If yes, specify the type of disability:" value="Multiple Disorder">
+                    <label for="Multiple Disorder">Multiple Disorder</label>
+
+                    <br>
+
+                    <input type="checkbox" id="Speech/Language Disorder" name="If yes, specify the type of disability:" value="Speech/Language Disorder">
+                    <label for="Speech/Language Disorder">Speech/Language Disorder</label>
+        
+
+                    <input type="checkbox" id="Learning Disability" name="If yes, specify the type of disability:" value="Learning Disability">
+                    <label for="Learning Disability">Learning Disability</label>
+
+                    <input type="checkbox" id="Emotional-Behavioral Disorder" name="If yes, specify the type of disability:" value="Emotional-Behavioral Disorder">
+                    <label for="Emotional-Behavioral Disorder">Emotional-Behavioral Disorder</label>
+
+                    <br>
+
+                    <input type="checkbox" id="Cerebral Palsy" name="If yes, specify the type of disability:" value="Cerebral Palsy">
+                    <label for="Cerebral Palsy">Cerebral Palsy</label>
+
+                    <br>
+
+                    <input type="checkbox" id="Intellectual Disability" name="If yes, specify the type of disability:" value="Intellectual Disability">
+                    <label for="Intellectual Disability">Intellectual Disability</label>
+
+                    <input type="checkbox" id="Orthopedic/Physical Handicap" name="If yes, specify the type of disability:" value="Orthopedic/Physical Handicap">
+                    <label for="Orthopedic/Physical Handicap">Orthopedic/Physical Handicap</label>
+
+                    <input type="checkbox" id="Special Health Problem/Chronic Disease" name="If yes, specify the type of disability:" value="Special Health Problem/Chronic Disease">
+                    <label for="Special Health Problem/Chronic Disease">Special Health Problem/Chronic Disease</label>
+
+                    <input type="checkbox" id="a.Cancer" name="If yes, specify the type of disability:" value="a.Cancer">
+                    <label for="a.Cancer">a.Cancer</label>
+
+                    </fieldset>
+                    <br>
+                    
+                    <fieldset>
+
+                    <legend><br><b>Current Address</b></br></legend>
+                    
+                <label for ="House No.">House No.</label>
+                <input type="text" id="House No." name="House No." placeholder="Enter your house no.">
+
+            
+
+                <label for ="Municipality/City">Municipality/City</label>
+                <input type="text" id="Municipality/City" name="Municipality/City" placeholder="Enter your Municipality/City">
+
+
+                <label for ="Sitio/Street Name">Sitio/Street Name</label>
+                <input type="text" id="Sitio/Street Name" name="Sitio/Street Name" placeholder="Enter your Sitio/Street Name">
+<br>
+                <label for ="Province">Province</label>
+                <input type="text" id="Province" name="Province" placeholder="Enter your Province">
+
+                <label for ="Barangay">Barangay</label>
+                <input type="text" id="Barangay" name="Barangay" placeholder="Enter your Barangay">
+
+                <label for ="Country">Country</label>
+                <input type="text" id="Country" name="Country" placeholder="Enter your Country">
+
+                <label for ="Zip Code">Zip Code</label>
+                <input type="text" id="Zip Code" name="Zip Code" placeholder="Enter your Zip Code">
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend><br><b>Permanent Address</b></br></legend>
+                    
+                    <p>Same with your current address? <input type="checkbox" id="Yes" name="Same with your current address?" value="Yes">
+                    <label for="Yes">Yes</label>
+
+                    <input type="checkbox" id="No" name="Same with your current address?" value="No">
+                    <label for="No">No</label></p>
+
+                    <label for ="House No.">House No.</label>
+                <input type="text" id="House No." name="House No." placeholder="Enter your house no.">
+
+            
+
+                <label for ="Municipality/City">Municipality/City</label>
+                <input type="text" id="Municipality/City" name="Municipality/City" placeholder="Enter your Municipality/City">
+
+
+                <label for ="Sitio/Street Name">Sitio/Street Name</label>
+                <input type="text" id="Sitio/Street Name" name="Sitio/Street Name" placeholder="Enter your Sitio/Street Name">
+<br>
+                <label for ="Province">Province</label>
+                <input type="text" id="Province" name="Province" placeholder="Enter your Province">
+
+                <label for ="Barangay">Barangay</label>
+                <input type="text" id="Barangay" name="Barangay" placeholder="Enter your Barangay">
+
+                <label for ="Country">Country</label>
+                <input type="text" id="Country" name="Country" placeholder="Enter your Country">
+
+                <label for ="Zip Code">Zip Code</label>
+                <input type="text" id="Zip Code" name="Zip Code" placeholder="Enter your Zip Code">
+            </fieldset>
+
+            <fieldset>
+
+                    <legend><br><b>Parent's/Guardian's Infornation</b></br></legend>
+                    <p><b>Father's Name</b></p>
+                    <label for ="name">Last Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your last name">
+
+                <label for ="name">First Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your first name">
+
+                <label for ="name">Middle Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your middle name">
+
+                <br>
+
+
+                <label for ="name">Contact Number:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your Contact Number">
+
+
+                <p><b>Mather's Maiden Name</b></p>
+                    <label for ="name">Last Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your last name">
+
+                <label for ="name">First Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your first name">
+
+                <label for ="name">Middle Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your middle name">
+
+                <br>
+
+                <label for ="name">Contact Number:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your Contact Number">
+
+
+                <p><b>Legal Guardian's Name</b></p>
+                    <label for ="name">Last Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your last name">
+
+                <label for ="name">First Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your first name">
+
+                <label for ="name">Middle Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your middle name">
+
+                <br>
+
+                <label for ="name">Contact Number:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your Contact Number">
+
+                <fieldset>
+
+                    <legend><br><b>For Returning Learner(Balik-Aral) and Those Who Will Transfer?Move In</b></br></legend>
+
+                    <label for ="name">First Grade Level Completed</label>
+                <input type="text" id="name" name="name">
+
+                <label for ="name">School ID</label>
+                <input type="text" id="name" name="name">
+
+                <br>
+
+                <label for ="name">Last School Year Completed</label>
+                <input type="text" id="name" name="name">
+
+                
+
+                <label for ="name">Last School Attended</label>
+                <input type="text" id="name" name="name">
+          </fieldset>
+
+           <fieldset>
+
+                    <legend><br><b>For Learners in Senior High School</b></br></legend>
+
+                    <p>Semester <input type="checkbox" id="1st" name="Semester" value="1st">
+                    <label for="1st">1st</label><input type="checkbox" id="2nd" name="Semester" value="2nd">
+                    <label for="2nd">2nd</label></p>
+                    
+                    <label for ="name">Track</label>
+                <input type="text" id="name" name="name"><label for ="name">Strand</label>
+                <input type="text" id="name" name="name">
+                    </fieldset>
+
+                    <fieldset>
+                    <p><b>If school will implement other distance learning modalities aside from face-to-face instruction, what would you prefer for your child?</b></p>
+
+                    <p>Choose that all apply:</p>
+                    <input type="checkbox" id="Modular(Print)" name="Choose that all apply:" value="Modular(Print)">
+                    <label for="Modular(Print)">Modular(Print)</label>
+
+
+                     <input type="checkbox" id="Modular(Digital)" name="Choose that all apply:" value="Modular(Digital)">
+                    <label for="Modular(Digital)">Modular(Digital)</label>
+
+
+                    <input type="checkbox" id="Online" name="Choose that all apply:" value="Online">
+                    <label for="Online">Online</label>
+
+                     <input type="checkbox" id="Educational Television" name="Choose that all apply:" value="Educational Television">
+                    <label for="Educational Television">Educational Television</label>
+
+                    <input type="checkbox" id="Radio-Based Instruction" name="Choose that all apply:" value="Radio-Based Instruction">
+                    <label for="Radio-Based Instruction">Radio-Based Instruction</label>
+
+                    <input type="checkbox" id="Homeschooling" name="Choose that all apply:" value="Homeschooling">
+                    <label for="Homeschooling">Homeschooling</label>
+
+
+                    <input type="checkbox" id="Blended" name="Choose that all apply:" value="Blended">
+                    <label for="Blended">Blended</label>
+             </fieldset>
+
+             <p><b>I hereby certify that the above infomation given are true and correct of the best of my knowledge and I allow the Department of Education to use my child's details to create and/or update his/her learner profile in the Learner Information System. The information herein shall be treated as confidential in compliance with the Data Privacy act of 2012.</b></p>
+
+              <label for ="name">Signature Over Printed Name of Parent/Guardian</label>
+                <input type="text" id="name" name="name">
+
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date">
+
+
+            </fieldset>
+        </fieldset>
+     </fieldset>
+        </form>
+    </body>
+</html>
